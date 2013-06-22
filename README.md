@@ -1,2 +1,2 @@
-tab-app
+ku4node-plugins-chordpro
 =======
