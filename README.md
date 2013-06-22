@@ -1,4 +1,2 @@
-ku4node-plugins-chordpro
-========================
-
-ChordPro parser
+tab-app
+=======
