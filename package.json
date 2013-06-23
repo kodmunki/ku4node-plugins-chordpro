@@ -1,6 +1,6 @@
 {
     "name": "ku4node-plugins-chordpro",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "author": "kodmunki",
     "description": "chordpro format parser",
     "contributors": [{
@@ -9,21 +9,21 @@
         }
     ],
     "bin": {
-        "tabspot": "./bin/ku4node-plugins-chordpro"
+        "ku4node-plugins-chordpro": "./bin/ku4node-plugins-chordpro"
     },
     "scripts": {
         "start": "node ./bin/ku4node-plugins-chordpro",
         "test": "vows --spec --isolate"
     },
-    "main": "./lib/tabspot",
+    "main": "./lib/index",
     "repository": {
         "type": "git",
         "url": ""
     },
     "keywords": [""],
     "dependencies" : {
-        "ku4node-kernel":"0.5.0",
-        "ku4node-infrastructure":"0.5.0"
+        "ku4node-kernel":"0.7.0",
+        "ku4node-infrastructure":"0.7.0"
     },
     "analyze": false,
     "private": true,
