@@ -1,6 +1,6 @@
 {
     "name": "ku4node-plugins-chordpro",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "kodmunki",
     "description": "chordpro format parser",
     "contributors": [{
@@ -23,7 +23,7 @@
     "keywords": [""],
     "dependencies" : {
         "ku4node-kernel":"0.7.0",
-        "ku4node-infrastructure":"0.7.0"
+        "ku4node-infrastructure":"0.8.0"
     },
     "analyze": false,
     "private": true,
