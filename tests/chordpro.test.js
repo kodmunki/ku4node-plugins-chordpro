@@ -48,3 +48,15 @@ exports['loadFile/read'] = function (test) {
         .onFileLoaded(assert)
         .loadFile(pwd + "stubs/song.chrdpro");
 };
+exports['listChords'] = function (test) {
+    test.expect(1);
+
+    function assert(_parser) {
+        test.equals(_parser.listChords().count(), 3);
+        test.done();
+    }
+
+    $parser()
+        .onFileLoaded(assert)
+        .loadFile(pwd + "stubs/song.chrdpro")
+};
