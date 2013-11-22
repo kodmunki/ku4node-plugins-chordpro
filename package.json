@@ -23,7 +23,7 @@
     "keywords": [""],
     "dependencies" : {
         "ku4node-kernel":"*",
-        "ku4node-infrastructure":"*"
+        "ku4node-data":"*"
     },
     "analyze": false,
     "private": true,
